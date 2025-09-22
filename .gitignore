@@ -1,0 +1,43 @@
+# ==== IDE ====
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+# VS Code
+.vscode/
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# 편의: IDE가 만드는 루트 산출물
+out/
+bin/
+# IntelliJ HTTP Client 요청 폴더(있을 때만)
+httpRequests/
+
+# ==== Build/Gradle ====
+# Gradle 캐시
+.gradle/
+# 모든 모듈의 빌드 산출물
+**/build/
+# (필수) Gradle Wrapper는 추적 유지
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==== Java ====
+*.log
+hs_err_pid*
+replay_pid*
+
+# ==== OS 잡파일 ====
+.DS_Store
+Thumbs.db
